@@ -7,6 +7,6 @@ const app = new cdk.App();
 new AwsCdkAppStack(app, 'AwsCdkAppStack', {
     env: {
         region: 'ap-south-1',
-        account: '123456789101'
+        account: '12345678910'
     }
 });
